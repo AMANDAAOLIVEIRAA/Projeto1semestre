@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* CABECALHO--------------------------------------*/
+header{
+    width: 100vw;
+    background-color: pink;
+    text-align: center;
+    margin-bottom: ;
+}
+header h1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+    text-shadow: 3px 3px 2px white;
+
+}
+header h2{
+    padding-bottom: 1.5vh;
+    color: #FF0080;
+}
+/* MENU----------------------------------------------*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    background-color: rgb(199, 74, 182);
+}
+#home a ,#sobre a,#empresa a{
+    text-decoration: none;
+    color: white;
+    padding-left: 15vw;
+    padding-right: 15vw;
+    font-size: 19px;
+}
+#home a:hover,#sobre a:hover,#empresa a:hover{
+    background-color: blueviolet;
+}
+/*CONTEUDO PRINCIPAL----------------------------------*/
+main{
+    width: 68vw;
+    float: left;
+    font-size: 20px;
+    margin-top: 2vh;
+    margin-left: 3vw;
+    
+}
+main img{
+    width:50vw;
+    margin-left: 10vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+main iframe{
+    margin-left:10vw;
+}
+
+/*CONTEUDO SECUNDARIO---------------------------------*/
+aside{
+    width: 25vw;
+    float:left;
+    
+    
+}
+aside ul li{
+    list-style: none;
+}
+#links{
+    padding-top: 5vh;
+}
+#links li{
+    padding: 7px;
+}
+/*RODAPE----------------------------*/
+footer{
+    clear: both;
+    width:100vw;
+    background-color:  rgb(199, 74, 182);
+    height: max-content;
+    text-align: center;
+}
+#redes a {
+    text-decoration: none;
+    color:white;
+    
+}
+#redes {
+    display: flex;
+    padding-top: 3vh;
+   justify-content: space-around;
+}
+#insta{
+    width: 5vw;
+    
+}
+#tiktok{
+    width: 8vw;
+    
+}
+#youtube{
+    width: 5vw;
+}
+#redes1,#redes2,#redes3{
+    display: flex;
+}
+#redes1 p,#redes2 p,#redes3 p{
+    margin-top: 2vh;
+}
